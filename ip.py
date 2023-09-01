@@ -2,7 +2,7 @@ from iputils import *
 
 
 class IP:
-    def _init_(self, enlace):
+    def __init__(self, enlace):
         """
         Inicia a camada de rede. Recebe como argumento uma implementação
         de camada de enlace capaz de localizar os next_hop (por exemplo,
